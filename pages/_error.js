@@ -7,13 +7,13 @@ class Error extends React.Component {
         const statusCode = res ? res.statusCode : err ? err.statusCode : null;
         return { statusCode };
     }
-  
+
     render() {
         return (
-            <React.Fragment>
+            <React.Fragment>ß
                 <NavbarSix />
 
-                <section className="page-title-area jarallax" data-jarallax='{"speed": 0.2}'>
+                <section className="page-title-area parallax" data-parallax='{"speed": 0.2}'>
                     <div className="container">
                         <h2>{this.props.statusCode} Error</h2>
                     </div>
@@ -38,5 +38,5 @@ class Error extends React.Component {
         );
     }
 }
-  
+
 export default Error;

@@ -15,10 +15,18 @@ class About extends Component {
                         <div className="col-lg-6 col-md-12">
                             <div className="about-content">
                                 <h2>Benvenuti</h2>
-                                <p>Arredamenti Falegnameria Renato Giuttari nasce  .....
-                                     kljdfsaahjkadskjhkjdfhhjdsf
-                                     dssfhjkdhfkj dl sfhdlsalj fdhkjh kldsaof ll hdff
-                                    offre una vasta scelta di arredi interni o esterni, tettoie, infissi e parquet, su misura per te o da brand certificati. Dal cartongesso alla tenda per interni. Dal progetto alla posa in opera.</p>
+                                <p>Qualità, professionalità, stile, design, cortesia, sostenibilità e passione
+                                    sono le parole chiavi che caratterizzano la nostra azienda
+                                    Arredamenti Falegnameria Renato Giuttari offre una vasta scelta di arredi
+                                    per interni ed esterni, da brand qualificati e certificati MADE IN ITALY
+                                    oppure creati su misura per te nei nostri laboratori da ebanisti qualificati.
+                                    Seguiamo i tuoi desideri dal progetto alla posa in opera, dalla singola
+                                    parete in cartongesso al montaggio di tendaggi per i tuoi interni.
+                                    Ci teniamo a fornire prodotti certificati con bassissime quantità di
+                                    formaldeide, dalle cucine alle porte per interno, dalle coperture in legno
+                                    ai parquet.
+                                    Vi aspettiamo nei nostri Showroom per scegliere insieme l’arredo su
+                                    misura per te.</p>
 
                                 <div className="row">
                                     <div className="col-lg-6 col-md-6">

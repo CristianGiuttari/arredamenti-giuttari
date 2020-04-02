@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Features extends Component {
     render() {
         return (
-            <section id="services" className="features-area ptb-100 bg-f9f9f9">
+            <section id="services2" className="features-area ptb-100 bg-f9f9f9">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-4 col-md-6">

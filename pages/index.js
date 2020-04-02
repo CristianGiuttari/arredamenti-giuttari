@@ -6,7 +6,6 @@ import Partner from '../components/Agency/Partner';
 import About from '../components/Agency/About';
 import Features from '../components/Agency/Features';
 import Cta from '../components/Agency/Cta';
-import Contact from '../components/Agency/Contact';
 
 const Index = () => (
     <>
@@ -16,7 +15,6 @@ const Index = () => (
         <About/>
         <Cta/>
         <Features/>
-        <Contact/>
         <Footer/>
     </>
 );

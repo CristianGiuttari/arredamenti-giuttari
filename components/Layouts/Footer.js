@@ -1,144 +1,83 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import Link from 'next/link';
 
 class Footer extends Component {
     render() {
         return (
             <footer className="footer-area bg-fffcf4">
-                <div className="container">
+                <div className="container" id="contact">
                     <div className="row">
+
+
                         <div className="col-lg-4 col-md-6">
                             <div className="single-footer-widget">
-                                <div className="logo">
-                                    <Link href="/agency">
-                                        <a>
-                                            <img src={require('../../images/black-logo.png')} alt="logo" />
-                                        </a>
-                                    </Link>
-                                </div>
+                                <h3>Orari di apertura</h3>
 
-                                <ul className="contact-info">
-                                    <li>1828 Johns Drive Glenview, IL 60025</li>
+                                <ul className="list time">
                                     <li>
-                                        <Link href="#">
-                                            <a>(224) 228-8475</a>
-                                        </Link>
+                                        LUNEDI MERCOLEDI VENERDI
+                                        <span>9:00 - 13 / 15:00 - 17:30 </span>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>support@pluck.com</a>
-                                        </Link>
+                                        MARTEDI GIOVEDI
+                                        <span>9:00 - 13 / 15:00 - 17:30 </span>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>www.pluck.com</a>
-                                        </Link>
+                                        SABATO
+                                        <span>su appuntamento </span>
                                     </li>
                                 </ul>
                             </div>
                         </div>
 
-                        <div className="col-lg-2 col-md-6">
-                            <div className="single-footer-widget pl-3">
-                                <h3>Quick Links</h3>
-
-                                <ul className="list">
-                                    <li>
-                                        <Link href="#">
-                                            <a>Home</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="#">
-                                            <a>Features</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="#">
-                                            <a>Screenshots</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="#">
-                                            <a>Pricing</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="#">
-                                            <a>News</a>
-                                        </Link>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-3 col-md-6">
-                            <div className="single-footer-widget pl-5">
-                                <h3>Support</h3>
-
-                                <ul className="list">
-                                    <li>
-                                        <Link href="#">
-                                            <a>Quick Support</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="#">
-                                            <a>Privacy Policy</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="#">
-                                            <a>Copyright</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="#">
-                                            <a>Terms & Conditions</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="#">
-                                            <a>Testimonials</a>
-                                        </Link>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-3 col-md-6">
+                        <div className="col-lg-4 col-md-6">
                             <div className="single-footer-widget">
-                                <h3>My Account</h3>
-
-                                <ul className="list">
+                                <h3>Falegnameria</h3>
+                                <ul className="contact-info">
                                     <li>
-                                        <Link href="#">
-                                            <a>Managed Account</a>
-                                        </Link>
+                                        <i className="fas fa-map-marker-alt"></i>
+                                        <span>Indirizzo:</span>
+                                        Via Carcile, 16/18 – Loc. Protonotaro
+                                        98053 CASTROREALE (ME)
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>Create Account</a>
-                                        </Link>
+                                        <i className="fas fa-phone"></i>
+                                        <span>Telefono:</span>
+                                        <a href="#">090 97 31 753</a>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>Download Software</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="#">
-                                            <a>Support Center</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="#">
-                                            <a>Account Security</a>
-                                        </Link>
+                                        <i className="fas fa-phone"></i>
+                                        <span>Cellulare:</span>
+                                        <a href="#">+39 333 976 11 21</a>
                                     </li>
                                 </ul>
                             </div>
                         </div>
+                        <div className="col-lg-4 col-md-6">
+                            <div className="single-footer-widget">
+                                <h3>Amministrazione</h3>
+                                <ul className="contact-info">
+                                    <li>
+                                        <i className="fas fa-map-marker-alt"></i>
+                                        <span>Indirizzo:</span>
+                                        Via Provinciale C.da Vernacola – Loc. Protonotaro
+                                        98053 CASTROREALE (ME)
+                                    </li>
+                                    <li>
+                                        <i className="fas fa-envelope"></i>
+                                        <span>Email:</span>
+                                        <a href="#">arredamentigiuttari@plive.it</a>
+                                    </li>
+
+                                    <li>
+                                        <i className="fas fa-phone"></i>
+                                        <span>Telefono:</span>
+                                        <a href="#">+39 347 38 75 848</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
 
@@ -146,7 +85,7 @@ class Footer extends Component {
                     <div className="container">
                         <div className="row align-items-center">
                             <div className="col-lg-7 col-md-7">
-                                <p><i className="far fa-copyright"></i>{new Date().getFullYear()}<a href="/"></a>. All Rights Reserved</p>
+                                <p>Part. Iva 01367560834</p><p>C.F. GTTRNT62M25F951D</p><p> Codice SDI 6JXPS2J</p>
                             </div>
 
                             <div className="col-lg-5 col-md-5">
@@ -168,7 +107,7 @@ class Footer extends Component {
                 </div>
 
                 <div className="map2">
-                    <img src={require('../../images/map2.png')} alt="map" />
+                    <img src={require('../../images/map2.png')} alt="map"/>
                 </div>
             </footer>
         );

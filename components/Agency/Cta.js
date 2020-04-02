@@ -16,7 +16,7 @@ class Cta extends Component {
     render() {
         return (
             <React.Fragment>
-                <section className="cta-area ptb-100 jarallax pb-0" data-jarallax='{"speed": 0.2}'>
+                <section id="services" className="cta-area ptb-100 jarallax pb-0" data-jarallax='{"speed": 0.2}'>
                     <div className="container">
                         <div className="cta-content">
                             <h2>I nostri servizi</h2>
