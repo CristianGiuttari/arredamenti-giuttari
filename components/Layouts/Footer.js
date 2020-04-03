@@ -2,8 +2,8 @@ import React from 'react';
 import Link from 'next/link';
 
 const Footer = () => (
-    <footer className="footer-area bg-fffcf4">
-        <div className="container" id="contact">
+    <footer className="footer-area bg-fffcf4" id="contact">
+        <div className="container">
             <div className="row">
 
 
@@ -97,20 +97,22 @@ const Footer = () => (
                         <ul>
                             <li>
                                 <Link
-                                    href="https://www.facebook.com/Arredamenti-Falegnameria-Renato-Giuttari-572960006487445" target="_blank" >
+                                    prefetch={false}
+                                    href="https://www.facebook.com/Arredamenti-Falegnameria-Renato-Giuttari-572960006487445" >
                                     <a><i className="fab fa-facebook-f"></i></a>
                                 </Link>
                             </li>    <li>
                                 <Link
-                                    href="https://api.whatsapp.com/send?phone=+393473875848" target="_blank" >
+                                    prefetch={false}
+                                    href="https://api.whatsapp.com/send?phone=+393473875848">
                                     <a><i className="fab fa-whatsapp"></i></a>
                                 </Link>
                             </li>
-                            {/*<li>*/}
-                            {/*    <Link href="#">*/}
-                            {/*        <a><i className="fab fa-instagram"></i></a>*/}
-                            {/*    </Link>*/}
-                            {/*</li>*/}
+                            <li>
+                                <Link href="#">
+                                    <a><i className="fab fa-instagram"></i></a>
+                                </Link>
+                            </li>
                         </ul>
                     </div>
                 </div>

@@ -104,7 +104,7 @@ const Navbar = () => {
                             <li className="nav-item">
                                 <AnchorLink
                                     onClick={toggleNavbarIsCollapsed}
-                                    offset={() => 0}
+                                    offset={() => 200}
                                     className="nav-link"
                                     href="#contact"
                                 >
