@@ -1,5 +1,5 @@
 import React from 'react'
-import NavbarSix from '../components/Layouts/NavbarSix';
+import Navbar from '../components/Layouts/Navbar';
 import Footer from '../components/Layouts/Footer';
 
 class Error extends React.Component {
@@ -10,12 +10,12 @@ class Error extends React.Component {
 
     render() {
         return (
-            <React.Fragment>ß
-                <NavbarSix />
+            <React.Fragment>
+                <Navbar />
 
                 <section className="page-title-area parallax" data-parallax='{"speed": 0.2}'>
                     <div className="container">
-                        <h2>{this.props.statusCode} Error</h2>
+                        <h2>{this.props.statusCode} Errore pagina non trovata</h2>
                     </div>
                 </section>
 

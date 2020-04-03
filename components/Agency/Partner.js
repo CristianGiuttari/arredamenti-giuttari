@@ -52,7 +52,7 @@ class Partner extends Component {
                                 <div className="partner-item">
                                     <Link href="#">
                                         <a>
-                                            <img src={require('../../images/agency-partner1.png')} alt="logo" />
+                                            <img src={require('../../images/creo.png')} alt="logo" />
                                         </a>
                                     </Link>
                                 </div>

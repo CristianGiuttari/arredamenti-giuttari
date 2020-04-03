@@ -16,7 +16,7 @@ const Navbar = () => {
         const callback = () => {
             let fromTop = window.scrollY;
 
-            setIsSticky(fromTop > 170)
+            setIsSticky(fromTop > 170);
 
             mainNavLinks.forEach(link => {
                 if (link.hash) {
@@ -49,8 +49,8 @@ const Navbar = () => {
                 <div className="container">
                     <Link href="#">
                         <a className="navbar-brand">
-                            <img src={require("../../images/white-logo.png")} alt="logo"/>
-                            <img src={require('../../images/white-logo.png')} alt="logo"/>
+                            <img src={require("../../images/RG80White.png")} alt="logo"/>
+                            <img src={require('../../images/RG80.png')} alt="logo"/>
                         </a>
                     </Link>
 
