@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import Link from 'next/link';
-import '../../node_modules/react-modal-video/scss/modal-video.scss';
 
 class Banner extends Component {
 

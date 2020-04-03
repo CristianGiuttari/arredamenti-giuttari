@@ -1,6 +1,4 @@
 import React, {Component} from 'react';
-import ModalVideo from 'react-modal-video';
-import '../../node_modules/react-modal-video/scss/modal-video.scss';
 
 class Cta extends Component {
 
@@ -55,12 +53,6 @@ class Cta extends Component {
                     </div>
                 </section>
 
-                <ModalVideo
-                    channel='youtube'
-                    isOpen={this.state.isOpen}
-                    videoId='szuchBiLrEM'
-                    onClose={() => this.setState({isOpen: false})}
-                />
             </React.Fragment>
         );
     }

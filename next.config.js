@@ -1,9 +1,8 @@
 const withFonts = require('next-fonts');
 const withPlugins = require('next-compose-plugins');
 const optimizedImages = require('next-optimized-images');
-const withVideos = require('next-videos');
-const withSass = require('@zeit/next-sass');
 const withCSS = require('@zeit/next-css');
+withPurgeCss = require('next-purgecss');
 
 module.exports = withPlugins([
     [optimizedImages, {
@@ -28,5 +27,5 @@ module.exports = withPlugins([
             preset: 'default',
             quality: 75,
         },
-    }], [withCSS], [withFonts], [withSass], [withVideos],
+    }], [withCSS], [withFonts], [withPurgeCss]
 ]);
