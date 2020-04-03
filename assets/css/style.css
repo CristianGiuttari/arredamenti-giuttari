@@ -805,47 +805,6 @@ Main Banner CSS
       color: #3b3b3b;
       opacity: .10; }
 
-.freelancer-banner-content {
-  margin-top: 70px; }
-  .freelancer-banner-content h1 {
-    margin: 0;
-    font-size: 55px;
-    font-weight: 700; }
-    .freelancer-banner-content h1 span {
-      background-image: url(../../images/bar.png);
-      background-position: center center;
-      background-size: contain;
-      background-repeat: no-repeat; }
-  .freelancer-banner-content ul {
-    margin: 20px 0 35px;
-    padding: 0;
-    list-style-type: none; }
-    .freelancer-banner-content ul li {
-      display: inline-block;
-      margin-right: 15px; }
-      .freelancer-banner-content ul li a {
-        font-size: 25px;
-        color: #6d6d6d; }
-        .freelancer-banner-content ul li a:hover, .freelancer-banner-content ul li a:focus {
-          color: #D09F66;
-          transform: translateY(-3px); }
-  .freelancer-banner-content .btn-box .video-btn {
-    display: inline-block;
-    color: #999999;
-    margin-left: 30px;
-    width: 45px;
-    height: 45px;
-    line-height: 45px;
-    border: 1px solid #999999;
-    border-radius: 50%;
-    text-align: center;
-    position: relative;
-    top: 4px; }
-    .freelancer-banner-content .btn-box .video-btn:hover, .freelancer-banner-content .btn-box .video-btn:focus {
-      background-color: #D09F66;
-      color: #ffffff;
-      border-color: #D09F66; }
-
 .freelancer-banner-image {
   text-align: center; }
 
@@ -1274,16 +1233,6 @@ Main Banner CSS
         border-radius: 50%; }
       .payment-processing-banner-content ul li:last-child {
         margin-bottom: 0; }
-
-.payment-processing-banner-image {
-  width: 100%;
-  height: 100%;
-  background-image: url(../../images/payment-banner.jpg);
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat; }
-  .payment-processing-banner-image img {
-    display: none; }
 
 /*================================================
 Partner CSS
@@ -2288,77 +2237,6 @@ UX Research Process CSS
     margin-bottom: 10px; }
 
 /*================================================
-Skill CSS
-=================================================*/
-.skill-image {
-  width: 100%;
-  height: 100%;
-  background-image: url(../../images/skill-bg.jpg);
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat; }
-  .skill-image img {
-    display: none; }
-
-.skill-content {
-  background-color: #D09F66;
-  padding-left: 100px;
-  padding-right: 100px; }
-  .skill-content .freelancer-section-title {
-    text-align: left;
-    margin-bottom: 35px; }
-    .skill-content .freelancer-section-title h2 {
-      color: #ffffff; }
-      .skill-content .freelancer-section-title h2 span {
-        background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 80%, #000000 80%); }
-    .skill-content .freelancer-section-title p {
-      margin-left: 0;
-      margin-right: 0;
-      color: #ffffff;
-      opacity: .95; }
-  .skill-content .skills {
-    position: relative; }
-    .skill-content .skills .skill-item {
-      position: relative;
-      margin-bottom: 25px; }
-      .skill-content .skills .skill-item .skill-header {
-        position: relative;
-        margin-bottom: 10px; }
-        .skill-content .skills .skill-item .skill-header .skill-title {
-          font-size: 16px;
-          font-weight: 600;
-          margin-bottom: 0;
-          color: #ffffff; }
-        .skill-content .skills .skill-item .skill-header .skill-percentage {
-          position: absolute;
-          right: 0;
-          top: 1px;
-          font-size: 15px;
-          font-weight: 600;
-          color: #ffffff; }
-      .skill-content .skills .skill-item:last-child {
-        margin-bottom: 0; }
-      .skill-content .skills .skill-item .skill-bar {
-        position: relative;
-        width: 100%; }
-        .skill-content .skills .skill-item .skill-bar .bar-inner {
-          position: relative;
-          width: 100%;
-          border-top: 3px solid #000000;
-          border-bottom: 3px solid #000000;
-          border-radius: 30px; }
-          .skill-content .skills .skill-item .skill-bar .bar-inner .bar {
-            position: absolute;
-            left: 0;
-            top: 0;
-            width: 0;
-            height: 6px;
-            background: #ffffff;
-            transition: all 2000ms ease;
-            border-radius: 30px;
-            margin-top: -3px; }
-
-/*================================================
 Portfolio CSS
 =================================================*/
 .portfolio-area {
@@ -2588,7 +2466,7 @@ CTA CSS
   .cta-inner-content .single-cta-box {
     background: #ffffff;
     position: relative;
-    min-height: 340px;
+    min-height: 351px;
     z-index: 1;
     box-shadow: 0 0 1.25rem rgba(108, 118, 134, 0.1);
     text-align: center;
@@ -3261,16 +3139,6 @@ FAQ CSS
     padding: 15px; }
     .accordion .accordion-content.show {
       display: block; }
-
-.faq-image {
-  width: 100%;
-  height: 100%;
-  background-image: url(../../images/faq-bg.jpg);
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat; }
-  .faq-image img {
-    display: none; }
 
 /*================================================
 Platform Connect CSS

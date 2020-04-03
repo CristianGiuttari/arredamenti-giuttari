@@ -41,9 +41,9 @@ class Cta extends Component {
 
                                 <div className="col-lg-4 col-md-6 offset-lg-0 offset-md-3">
                                     <div className="single-cta-box">
-                                        <i className="fas fa-broom"></i>
+                                        <i className="fas fa-ruler-combined"></i>
                                         <h3>Realizzazioni su misura</h3>
-                                        <p>Ebanisti qualificati realizzeranno tutto ciò che su misura non troverai nei
+                                        <p>Ebanisti esperti realizzeranno tutto ciò che su misura non troverai nei
                                             nostri brand con attenzione a materiali certificati e verniciature a basse
                                             quantità di formaldeide</p>
                                     </div>

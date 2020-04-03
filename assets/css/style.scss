@@ -1207,70 +1207,6 @@ Main Banner CSS
   }
 }
 
-.freelancer-banner-content {
-  margin-top: 70px;
-
-  h1 {
-    margin: 0;
-    font: {
-      size: 55px;
-      weight: 700;
-    }
-
-    span {
-      background: {
-        image: url(../../images/bar.png);
-        position: center center;
-        size: contain;
-        repeat: no-repeat;
-      }
-    }
-  }
-
-  ul {
-    margin: 20px 0 35px;
-    padding: 0;
-    list-style-type: none;
-
-    li {
-      display: inline-block;
-      margin-right: 15px;
-
-      a {
-        font-size: 25px;
-        color: #6d6d6d;
-
-        &:hover, &:focus {
-          color: $main-color;
-          transform: translateY(-3px);
-        }
-      }
-    }
-  }
-
-  .btn-box {
-    .video-btn {
-      display: inline-block;
-      color: #999999;
-      margin-left: 30px;
-      width: 45px;
-      height: 45px;
-      line-height: 45px;
-      border: 1px solid #999999;
-      border-radius: 50%;
-      text-align: center;
-      position: relative;
-      top: 4px;
-
-      &:hover, &:focus {
-        background-color: $main-color;
-        color: $white-color;
-        border-color: $main-color;
-      }
-    }
-  }
-}
-
 .freelancer-banner-image {
   text-align: center;
 }
@@ -1881,20 +1817,7 @@ Main Banner CSS
   }
 }
 
-.payment-processing-banner-image {
-  width: 100%;
-  height: 100%;
-  background: {
-    image: url(../../images/payment-banner.jpg);
-    position: center center;
-    size: cover;
-    repeat: no-repeat;
-  }
 
-  img {
-    display: none;
-  }
-}
 
 /*================================================
 Partner CSS
@@ -3442,118 +3365,6 @@ UX Research Process CSS
   }
 }
 
-/*================================================
-Skill CSS
-=================================================*/
-.skill-image {
-  width: 100%;
-  height: 100%;
-  background: {
-    image: url(../../images/skill-bg.jpg);
-    position: center center;
-    size: cover;
-    repeat: no-repeat;
-  }
-
-  img {
-    display: none;
-  }
-}
-
-.skill-content {
-  background-color: $main-color;
-  padding: {
-    left: 100px;
-    right: 100px;
-  }
-
-  .freelancer-section-title {
-    text-align: left;
-    margin-bottom: 35px;
-
-    h2 {
-      color: $white-color;
-
-      span {
-        background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 80%, $black-color 80%);
-      }
-    }
-
-    p {
-      margin: {
-        left: 0;
-        right: 0;
-      }
-      color: $white-color;
-      opacity: .95;
-    }
-  }
-
-  .skills {
-    position: relative;
-
-    .skill-item {
-      position: relative;
-      margin-bottom: 25px;
-
-      .skill-header {
-        position: relative;
-        margin-bottom: 10px;
-
-        .skill-title {
-          font: {
-            size: 16px;
-            weight: 600;
-          }
-          margin-bottom: 0;
-          color: $white-color;
-        }
-
-        .skill-percentage {
-          position: absolute;
-          right: 0;
-          top: 1px;
-          font: {
-            size: 15px;
-            weight: 600;
-          }
-          color: $white-color;
-        }
-      }
-
-      &:last-child {
-        margin-bottom: 0;
-      }
-
-      .skill-bar {
-        position: relative;
-        width: 100%;
-
-        .bar-inner {
-          position: relative;
-          width: 100%;
-          border: {
-            top: 3px solid $black-color;
-            bottom: 3px solid $black-color;
-          }
-          border-radius: 30px;
-
-          .bar {
-            position: absolute;
-            left: 0;
-            top: 0;
-            width: 0;
-            height: 6px;
-            background: $white-color;
-            transition: all 2000ms ease;
-            border-radius: 30px;
-            margin-top: -3px;
-          }
-        }
-      }
-    }
-  }
-}
 
 /*================================================
 Portfolio CSS
@@ -3874,7 +3685,7 @@ CTA CSS
   .single-cta-box {
     background: $white-color;
     position: relative;
-    min-height: 340px;
+    min-height: 351px;
     z-index: 1;
     box-shadow: 0 0 1.25rem rgba(108, 118, 134, 0.1);
     text-align: center;
@@ -4884,20 +4695,6 @@ FAQ CSS
   }
 }
 
-.faq-image {
-  width: 100%;
-  height: 100%;
-  background: {
-    image: url(../../images/faq-bg.jpg);
-    position: center center;
-    size: cover;
-    repeat: no-repeat;
-  }
-
-  img {
-    display: none;
-  }
-}
 
 /*================================================
 Platform Connect CSS

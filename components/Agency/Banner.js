@@ -21,13 +21,7 @@ class Banner extends Component {
                                 <div className="main-banner-content">
                                     <h1>La tua casa su misura</h1>
                                     <p>Arredamenti Falegnameria Renato Giuttari</p>
-                                    <div className="btn-box">
 
-                                        <Link href="#">
-                                            <a className="btn btn-primary">Contattaci</a>
-                                        </Link>
-
-                                    </div>
                                 </div>
                             </div>
                         </div>
