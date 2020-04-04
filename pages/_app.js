@@ -1,7 +1,6 @@
 import '../assets/css/bootstrap.min.css';
 import '../assets/css/animate.min.css';
 import '../assets/css/fontawesome.min.css';
-import '../assets/css/responsive.css';
 import '../assets/css/style.css';
 
 import { Preloader, Placeholder } from 'react-preloading-screen';

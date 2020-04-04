@@ -68,7 +68,7 @@ const Navbar = () => {
                         <span className="navbar-toggler-icon"></span>
                     </button>
 
-                    <div className={clsx('collapse navbar-collapse', !collapsed && 'show')}
+                    <div className={clsx('navbar-collapse collapse', !collapsed && 'show')}
                          id="navbarSupportedContent">
                         <ul className="navbar-nav ml-auto">
                             <li className="nav-item">
