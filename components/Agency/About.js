@@ -14,10 +14,10 @@ const About = () => (
                     <div className="about-content">
                         <h2>Benvenuti</h2>
                         <p>Qualità, professionalità, stile, design, cortesia, sostenibilità e passione
-                            sono le parole chiavi che caratterizzano la nostra azienda.
+                            sono le parole chiavi che caratterizzano dal 1985 la nostra azienda Arredamenti Falegnameria Renato Giuttari.
                         </p>
                         <p>
-                            Arredamenti Falegnameria Renato Giuttari dal 1985 seguiamo i tuoi desideri dal
+                            Seguiamo i tuoi desideri dal
                             progetto alla posa in opera, dalla singola
                             parete in cartongesso al montaggio di tendaggi per i tuoi interni.
                         </p>
