@@ -19,9 +19,9 @@ export default class MyApp extends App {
                 <DefaultSeo
                     openGraph={{
                         type: 'website',
-                        locale: 'en_IE',
-                        url: 'https://todo.com/',
-                        site_name: 'Arredamenti falagnameria Renato Giuttari',
+                        locale: 'it_IT',
+                        url: 'https://arredamentigiuttari.com/',
+                        site_name: 'Arredamenti falegnameria Renato Giuttari',
                     }}
                 />
 
