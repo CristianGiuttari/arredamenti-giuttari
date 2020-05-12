@@ -35,14 +35,14 @@ const Footer = () => (
                             <li>
                                 <i className="fas fa-map-marker-alt"></i>
                                 <span>Indirizzo:</span>
-                                <a href="https://goo.gl/maps/Hg3wqQWLVjs42XGL6" target="_blank" >
+                                <a href="https://goo.gl/maps/Hg3wqQWLVjs42XGL6" target="_blank">
                                     Via Carcile, 16/18 – Loc. Protonotaro
                                     98053 CASTROREALE (ME)</a>
                             </li>
                             <li>
                                 <i className="fas fa-phone"></i>
                                 <span>Telefono:</span>
-                                <a href="tel:0909731753" >090 97 31 753</a>
+                                <a href="tel:0909731753">090 97 31 753</a>
                             </li>
                             <li>
                                 <i className="fas fa-phone"></i>
@@ -59,7 +59,8 @@ const Footer = () => (
                             <li>
                                 <i className="fas fa-map-marker-alt"></i>
                                 <span>Indirizzo:</span>
-                                <a href="https://goo.gl/maps/n2vUCebAdHykKQ5t6" target="_blank" >Via Provinciale C.da Vernacola – Loc.
+                                <a href="https://goo.gl/maps/n2vUCebAdHykKQ5t6" target="_blank">Via Provinciale C.da
+                                    Vernacola – Loc.
                                     Protonotaro
                                     98053 CASTROREALE (ME)</a>
                             </li>
@@ -98,10 +99,11 @@ const Footer = () => (
                             <li>
                                 <Link
                                     prefetch={false}
-                                    href="https://www.facebook.com/Arredamenti-Falegnameria-Renato-Giuttari-572960006487445" >
+                                    href="https://www.facebook.com/Arredamenti-Falegnameria-Renato-Giuttari-572960006487445">
                                     <a><i className="fab fa-facebook-f"></i></a>
                                 </Link>
-                            </li>    <li>
+                            </li>
+                            <li>
                                 <Link
                                     prefetch={false}
                                     href="https://api.whatsapp.com/send?phone=+393473875848">
@@ -109,7 +111,9 @@ const Footer = () => (
                                 </Link>
                             </li>
                             <li>
-                                <Link href="#">
+                                <Link
+                                    prefetch={false}
+                                    href="https://www.instagram.com/arredamentigiuttari">
                                     <a><i className="fab fa-instagram"></i></a>
                                 </Link>
                             </li>
