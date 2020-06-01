@@ -97,7 +97,7 @@ const partners = [
     },
     {
         imgSrc: require("../../images/loghifalegnameria/mottura_logo.png"),
-        url: "https://www.mottura.it/",
+        url: "https://www.mottura.com/it/home",
         alt: "mottura"
     },
     {

@@ -22,7 +22,7 @@ class Features extends Component {
                                     <i className="fas fa-tools"></i>
                                 </div>
                                 <h3>Montaggio</h3>
-                                <p>Posatori altamenti qualificati monteranno a regola d'arte i nostri prodotti</p>
+                                <p>Posatori qualificati monteranno a regola d'arte i nostri prodotti</p>
                             </div>
                         </div>
 
