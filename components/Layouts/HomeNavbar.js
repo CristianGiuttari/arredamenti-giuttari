@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import Link from 'next/link';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 import SeoSection from './SeoSection';
 import clsx from "clsx";
 
@@ -78,32 +79,41 @@ const Navbar = () => {
                                 </Link>
                             </li>
                             <li className="nav-item">
-                                <Link href="/#about" as="/#about">
-                                    <a className="nav-link">
-                                        Chi siamo
-                                    </a>
-                                </Link>
+                                <AnchorLink
+                                    onClick={toggleNavbarIsCollapsed}
+                                    offset={() => 0}
+                                    className="nav-link"
+                                    href="#about"
+                                >
+                                    Chi siamo
+                                </AnchorLink>
                             </li>
                             <li className="nav-item">
-                                <Link href="/#services" as="/#services">
-                                    <a className="nav-link">
-                                        Servizi
-                                    </a>
-                                </Link>
+                                <AnchorLink
+                                    onClick={toggleNavbarIsCollapsed}
+                                    offset={() => 0}
+                                    className="nav-link"
+                                    href="#services"
+                                >
+                                    Servizi
+                                </AnchorLink>
                             </li>
+                            {/*<li className="nav-item">*/}
+                            {/*    <Link href="[uid]" as="progettazione">*/}
+                            {/*        <a className="nav-link">*/}
+                            {/*            Progettazione*/}
+                            {/*        </a>*/}
+                            {/*    </Link>*/}
+                            {/*</li>*/}
                             <li className="nav-item">
-                                <Link href="[uid]" as="progettazione">
-                                    <a className="nav-link">
-                                        Progettazione
-                                    </a>
-                                </Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link href="/#contact" as="/#contact">
-                                    <a className="nav-link">
-                                        Contatti
-                                    </a>
-                                </Link>
+                                <AnchorLink
+                                    onClick={toggleNavbarIsCollapsed}
+                                    offset={() => 200}
+                                    className="nav-link"
+                                    href="#contact"
+                                >
+                                    Contatti
+                                </AnchorLink>
                             </li>
                         </ul>
 

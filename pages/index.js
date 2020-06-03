@@ -1,15 +1,15 @@
 import React from 'react';
-import Navbar from '../components/Layouts/Navbar';
+import HomeNavbar from '../components/Layouts/HomeNavbar';
 import Footer from '../components/Layouts/Footer';
-import Banner from '../components/Agency/Banner';
-import Partner from '../components/Agency/Partner';
-import About from '../components/Agency/About';
-import Features from '../components/Agency/Features';
-import Cta from '../components/Agency/Cta';
+import Banner from '../components/Sito/Banner';
+import Partner from '../components/Sito/Partner';
+import About from '../components/Sito/About';
+import Features from '../components/Sito/Features';
+import Cta from '../components/Sito/Cta';
 
 const Index = () => (
     <>
-        <Navbar/>
+        <HomeNavbar/>
         <Banner/>
         <Partner/>
         <About/>
