@@ -98,13 +98,13 @@ const Navbar = () => {
                                     Servizi
                                 </AnchorLink>
                             </li>
-                            {/*<li className="nav-item">*/}
-                            {/*    <Link href="[uid]" as="progettazione">*/}
-                            {/*        <a className="nav-link">*/}
-                            {/*            Progettazione*/}
-                            {/*        </a>*/}
-                            {/*    </Link>*/}
-                            {/*</li>*/}
+                            <li className="nav-item">
+                                <Link href="[uid]" as="progettazione">
+                                    <a className="nav-link">
+                                        Progettazione
+                                    </a>
+                                </Link>
+                            </li>
                             <li className="nav-item">
                                 <AnchorLink
                                     onClick={toggleNavbarIsCollapsed}

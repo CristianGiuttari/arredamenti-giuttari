@@ -4234,37 +4234,22 @@ Go Top CSS
 Gallery
 =================================================*/
 .gallery {
-  display: grid;
-  height: calc(100vh - 10px);
-  grid-template: repeat(3, 1fr)/repeat(3, 1fr);
-  grid-gap: 0.5em; }
-  @media (max-width: 800px) {
-    .gallery {
-      display: flex;
-      align-items: flex-start;
-      flex-wrap: wrap; }
-      .gallery > div {
-        width: 48%;
-        margin: 1%; } }
-    @media (max-width: 800px) and (max-width: 350px) {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap; }
+  .gallery > div {
+    width: 48%;
+    margin: 1%; }
+    @media (max-width: 350px) {
       .gallery > div {
         width: 98%; } }
-  .gallery > div:nth-child(3n + 1) {
-    grid-column: span 2;
-    grid-row: span 2; }
-  .gallery > div:nth-child(2) {
-    grid-column: span 3;
-    grid-row: span 3; }
-  .gallery > div:nth-child(4) {
-    grid-column: span 1;
-    grid-row: span 2; }
   .gallery > div > a {
     opacity: 0;
     position: absolute;
     color: #000;
     background-color: #000;
-    font: bold 4em "Helvetica";
-    text-shadow: 0 -1px 5px #fff, -1px 0px 5px #fff, 0 1px 5px #fff, 1px 0px 5px #fff;
+    font: bold 1em "Helvetica";
+    text-shadow: 0 -1px 1px #D09F66, -1px 0px 1px #D09F66, 0 1px 1px #D09F66, 1px 0px 1px #D09F66;
     padding: 2rem;
     mix-blend-mode: difference;
     width: 100%;
@@ -4275,7 +4260,7 @@ Gallery
     min-height: 100%;
     transition: all ease 1s; }
   .gallery > div:hover img {
-    filter: blur(4px); }
+    filter: blur(1px); }
   .gallery > div:hover a {
     opacity: 1; }
   .gallery > div {
@@ -4308,7 +4293,7 @@ Gallery
     [id^="lightbox-"]:target img {
       filter: blur(0); }
   [id^="lightbox-"] .content {
-    max-width: 90%;
+    max-width: 95%;
     position: relative;
     color: #fff; }
     [id^="lightbox-"] .content:hover > a.close {
@@ -4316,7 +4301,7 @@ Gallery
       transform: scale(1, 1); }
     [id^="lightbox-"] .content:hover > .title {
       opacity: 1;
-      transform: translateY(-3px); }
+      transform: translateY(0px); }
       [id^="lightbox-"] .content:hover > .title::after {
         opacity: 1; }
     [id^="lightbox-"] .content > * {
@@ -4329,7 +4314,7 @@ Gallery
     bottom: 0;
     width: 100%;
     transform: translateY(50%);
-    font-size: 1.5em;
+    font-size: 0.8em;
     opacity: 0; }
     [id^="lightbox-"] .title::after {
       content: ' ';
@@ -4366,19 +4351,3 @@ Gallery
     color: #fff; }
     [id^="lightbox-"] a.close::after {
       content: "X"; }
-
-.text-section-2col {
-  column-count: 2;
-  column-gap: 40px; }
-
-.text-section-1col img,
-.text-section-2col img,
-.gallery img {
-  margin-bottom: 1rem; }
-
-.text-section-1col p:last-child,
-.text-section-2col p:last-child {
-  margin-bottom: 0; }
-
-.content-section.text-section-2col {
-  margin-bottom: 0; }

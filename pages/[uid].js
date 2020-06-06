@@ -10,16 +10,14 @@ const Page = ({doc, menu}) => {
     if (doc) {
         return (
             <>
-                <Navbar />
+                <Navbar/>
                 <section className="page-title-area parallax" data-parallax='{"speed": 0.2}'>
                     <div className="container">
                         <h2>{doc.uid.charAt(0).toUpperCase() + doc.uid.slice(1)}</h2>
                     </div>
                 </section>
-                <section className="container mt-4 mb-4">
-                    <SliceZone sliceZone={doc.data.page_content}/>
-                </section>
-                <SimpleFooter />
+                <SliceZone sliceZone={doc.data.page_content}/>
+                <SimpleFooter/>
             </>
         )
     }
