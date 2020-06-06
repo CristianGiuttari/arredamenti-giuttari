@@ -4275,6 +4275,7 @@ Gallery
     text-decoration: none; }
 
 [id^="lightbox-"] {
+  z-index: 1;
   position: fixed;
   top: 0;
   left: 0;
